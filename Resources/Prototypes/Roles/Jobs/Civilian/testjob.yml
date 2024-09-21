@@ -2,7 +2,6 @@
   id: TestJob
   name: job-name-testjob
   description: job-description-testjob
-  playTimeTracker: JobTestJob
   icon: JobIconTestJob
   setPreference: false
   overrideConsoleVisibility: true
