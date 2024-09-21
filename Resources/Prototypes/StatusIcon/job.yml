@@ -452,3 +452,10 @@
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: Admin
   allowSelection: false
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconTestJob
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: TestJob
