@@ -3,15 +3,11 @@
   id: JobCaptain
   groups:
   - CaptainHead
-  - CaptainGlasses
   - CaptainNeck
   - CaptainJumpsuit
-  - CaptainGloves
-  - CaptainShoes
-  - CommandHeadset
   - CaptainBackpack
   - CaptainOuterClothing
-  - SurvivalCommand
+  - Survival
   - Trinkets
   - GroupSpeciesBreathTool
 
@@ -22,11 +18,10 @@
   - HoPHead
   - HoPNeck
   - HoPJumpsuit
-  - CommandHeadset
   - HoPBackpack
   - HoPOuterClothing
   - Glasses
-  - SurvivalCommand
+  - Survival
   - Trinkets
   - GroupSpeciesBreathTool
 
@@ -57,12 +52,9 @@
   groups:
   - GroupTankHarness
   - BartenderHead
-  - BartenderMask
   - BartenderJumpsuit
   - CommonBackpack
-  - BartenderNeck
   - BartenderOuterClothing
-  - BartenderShoes
   - Glasses
   - Survival
   - Trinkets
@@ -88,7 +80,6 @@
   - ChefMask
   - ChefJumpsuit
   - CommonBackpack
-  - ChefNeck
   - ChefOuterClothing
   - ChefShoes
   - Glasses
@@ -101,7 +92,6 @@
   groups:
   - GroupTankHarness
   - LibrarianJumpsuit
-  - LibrarianNeck
   - CommonBackpack
   - Glasses
   - Survival
@@ -130,7 +120,6 @@
   - ChaplainJumpsuit
   - CommonBackpack
   - ChaplainOuterClothing
-  - ChaplainShoes
   - Glasses
   - Survival
   - Trinkets
@@ -141,13 +130,10 @@
   groups:
   - GroupTankHarness
   - JanitorHead
-  - JanitorMask
   - JanitorJumpsuit
   - JanitorGloves
   - CommonBackpack
-  - JanitorNeck
   - JanitorOuterClothing
-  - JanitorShoes
   - Glasses
   - Survival
   - Trinkets
@@ -159,12 +145,9 @@
   groups:
   - GroupTankHarness
   - BotanistHead
-  - BotanistMask
   - BotanistJumpsuit
   - BotanistBackpack
-  - BotanistNeck
   - BotanistOuterClothing
-  - BotanistShoes
   - Glasses
   - Survival
   - Trinkets
@@ -191,7 +174,6 @@
   - MimeMask
   - MimeJumpsuit
   - MimeBackpack
-  - MimeNeck
   - MimeOuterClothing
   - MimeBelt
   - Glasses
@@ -204,7 +186,6 @@
   - GroupTankHarness
   - MusicianJumpsuit
   - CommonBackpack
-  - MusicianNeck
   - MusicianOuterClothing
   - Glasses
   - Survival
@@ -220,12 +201,11 @@
   - QuartermasterHead
   - QuartermasterNeck
   - QuartermasterJumpsuit
-  - QuartermasterHeadset
-  - QuartermasterBackpack
+  - CargoTechnicianBackpack
   - QuartermasterOuterClothing
   - QuartermasterShoes
   - Glasses
-  - SurvivalCommand
+  - Survival
   - Trinkets
   - GroupSpeciesBreathTool
 
@@ -234,10 +214,8 @@
   groups:
   - GroupTankHarness
   - CargoTechnicianHead
-  - CargoTechnicianMask
   - CargoTechnicianJumpsuit
   - CargoTechnicianBackpack
-  - CargoTechnicianNeck
   - CargoTechnicianOuterClothing
   - CargoTechnicianShoes
   - CargoTechnicianPDA
@@ -266,12 +244,11 @@
   - GroupTankHarness
   - ChiefEngineerHead
   - ChiefEngineerJumpsuit
-  - ChiefEngineerHeadset
-  - ChiefEngineerBackpack
+  - StationEngineerBackpack
   - ChiefEngineerNeck
   - ChiefEngineerOuterClothing
   - ChiefEngineerShoes
-  - SurvivalExtendedCommand
+  - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool
 
@@ -290,10 +267,8 @@
   groups:
   - GroupTankHarness
   - StationEngineerHead
-  - StationEngineerMask
   - StationEngineerJumpsuit
   - StationEngineerBackpack
-  - StationEngineerNeck
   - StationEngineerOuterClothing
   - StationEngineerShoes
   - StationEngineerID
@@ -307,7 +282,6 @@
   - GroupTankHarness
   - AtmosphericTechnicianJumpsuit
   - AtmosphericTechnicianBackpack
-  - AtmosphericTechnicianNeck
   - AtmosphericTechnicianOuterClothing
   - AtmosphericTechnicianShoes
   - SurvivalExtended
@@ -322,13 +296,12 @@
   - ResearchDirectorHead
   - ResearchDirectorNeck
   - ResearchDirectorJumpsuit
-  - ResearchDirectorHeadset
-  - ResearchDirectorBackpack
+  - ScientistBackpack
   - ResearchDirectorOuterClothing
   - ScientistGloves
   - ResearchDirectorShoes
   - Glasses
-  - SurvivalCommand
+  - Survival
   - Trinkets
   - GroupSpeciesBreathTool
 
@@ -337,7 +310,6 @@
   groups:
   - GroupTankHarness
   - ScientistHead
-  - ScientistMask
   - ScientistNeck
   - ScientistJumpsuit
   - ScientistBackpack
@@ -368,12 +340,11 @@
   - HeadofSecurityHead
   - HeadofSecurityNeck
   - HeadofSecurityJumpsuit
-  - HeadofSecurityHeadset
-  - HeadofSecurityBackpack
+  - SecurityBackpack
   - SecurityBelt
   - HeadofSecurityOuterClothing
-  - UpperSecurityShoes
-  - SurvivalSecurityCommand
+  - SecurityShoes
+  - SurvivalSecurity
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
@@ -385,9 +356,8 @@
   - WardenJumpsuit
   - SecurityBackpack
   - SecurityBelt
-  - WardenNeck
   - WardenOuterClothing
-  - UpperSecurityShoes
+  - SecurityShoes
   - SurvivalSecurity
   - Trinkets
   - SecurityStar
@@ -397,10 +367,8 @@
   id: JobSecurityOfficer
   groups:
   - SecurityHead
-  - SecurityMask
   - SecurityJumpsuit
   - SecurityBackpack
-  - SecurityNeck
   - SecurityOuterClothing
   - SecurityShoes
   - SecurityPDA
@@ -415,7 +383,6 @@
   groups:
   - GroupTankHarness
   - DetectiveHead
-  - SecurityMask
   - DetectiveNeck
   - DetectiveJumpsuit
   - SecurityBackpack
@@ -444,13 +411,12 @@
   - MedicalMask
   - ChiefMedicalOfficerJumpsuit
   - MedicalGloves
-  - ChiefMedicalOfficerHeadset
-  - ChiefMedicalOfficerBackpack
+  - MedicalBackpack
   - ChiefMedicalOfficerOuterClothing
   - ChiefMedicalOfficerNeck
   - ChiefMedicalOfficerShoes
   - Glasses
-  - SurvivalCommand
+  - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
 
@@ -459,13 +425,12 @@
   groups:
   - GroupTankHarness
   - MedicalDoctorHead
-  - MedicalDoctorMask
+  - MedicalMask
   - MedicalDoctorJumpsuit
   - MedicalGloves
   - MedicalBackpack
-  - MedicalDoctorNeck
   - MedicalDoctorOuterClothing
-  - MedicalDoctorShoes
+  - MedicalShoes
   - MedicalDoctorPDA
   - Glasses
   - SurvivalMedical
@@ -491,9 +456,8 @@
   - ChemistJumpsuit
   - MedicalGloves
   - ChemistBackpack
-  - ChemistNeck
   - ChemistOuterClothing
-  - ChemistShoes
+  - MedicalShoes
   - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
@@ -507,7 +471,6 @@
   - ParamedicJumpsuit
   - MedicalGloves
   - MedicalBackpack
-  - ParamedicNeck
   - ParamedicOuterClothing
   - ParamedicShoes
   - Glasses
@@ -530,11 +493,8 @@
   id: JobReporter
   groups:
   - GroupTankHarness
-  - ReporterMask
   - ReporterJumpsuit
   - CommonBackpack
-  - ReporterNeck
-  - ReporterShoes
   - Glasses
   - Survival
   - Trinkets
@@ -546,7 +506,6 @@
   - GroupTankHarness
   - PsychologistJumpsuit
   - MedicalBackpack
-  - PsychologistNeck
   - Glasses
   - Survival
   - Trinkets

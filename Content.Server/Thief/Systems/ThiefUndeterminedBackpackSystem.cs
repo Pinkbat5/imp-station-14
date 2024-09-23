@@ -4,9 +4,6 @@ using Content.Shared.Thief;
 using Robust.Server.GameObjects;
 using Robust.Server.Audio;
 using Robust.Shared.Prototypes;
-using Content.Shared.Hands.EntitySystems;
-using Robust.Shared.Containers;
-using System.Linq;
 
 namespace Content.Server.Thief.Systems;
 
@@ -20,8 +17,6 @@ public sealed class ThiefUndeterminedBackpackSystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _proto = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly UserInterfaceSystem _ui = default!;
-    [Dependency] private readonly SharedHandsSystem _hands = default!;
-    [Dependency] private readonly SharedContainerSystem _container = default!;
 
     public override void Initialize()
     {
@@ -42,18 +37,14 @@ public sealed class ThiefUndeterminedBackpackSystem : EntitySystem
         if (backpack.Comp.SelectedSets.Count != backpack.Comp.MaxSelectedSets)
             return;
 
-        var bag = Spawn("ClothingBackpackDuffel", _transform.GetMapCoordinates(backpack.Owner));
-        var bagContainer = _container.GetAllContainers(bag).First();
-        _hands.TryPickupAnyHand(args.Actor, bag);
-
         foreach (var i in backpack.Comp.SelectedSets)
         {
             var set = _proto.Index(backpack.Comp.PossibleSets[i]);
             foreach (var item in set.Content)
             {
                 var ent = Spawn(item, _transform.GetMapCoordinates(backpack.Owner));
-                if (HasComp<ItemComponent>(ent))
-                    _container.InsertOrDrop(ent, bagContainer);
+                if (TryComp<ItemComponent>(ent, out var itemComponent))
+                    _transform.DropNextTo(ent, backpack.Owner);
             }
         }
         _audio.PlayPvs(backpack.Comp.ApproveSound, backpack.Owner);
