@@ -160,7 +160,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/centcom_officer.rsi
 
 - type: entity
-  parent: ClothingUniformBase
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitChef
   name: chef uniform
   description: Can't cook without this.
@@ -1334,7 +1334,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
-    
+
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLoungewearWeb
