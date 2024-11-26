@@ -1,0 +1,9 @@
+- files: ["rattling_keys.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from tgstation."
+  source: "https://github.com/tgstation/tgstation/blob/013660537d926b619c23aff0e822326e861e8bad/sound/items/rattling_keys.ogg"
+
+- files: ["rattling_keys_attack.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from tgstation."
+  source: "https://github.com/tgstation/tgstation/blob/013660537d926b619c23aff0e822326e861e8bad/sound/items/rattling_keys_attack.ogg"

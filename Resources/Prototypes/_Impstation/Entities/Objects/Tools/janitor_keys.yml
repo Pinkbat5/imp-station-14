@@ -1,0 +1,38 @@
+- type: entity
+  name: custodial keyring
+  parent: BaseItem
+  id: JanitorKeys
+  description: jangly keys. #TODO
+  components:
+  - type: Tag
+    tags:
+    - JawsOfLife
+  - type: Sprite
+    sprite: _Impstation/Objects/Tools/janitor_keys.rsi
+    state: icon
+  - type: Item
+    sprite: _Impstation/Objects/Tools/janitor_keys.rsi
+  - type: Clothing
+    sprite: _Impstation/Objects/Tools/janitor_keys.rsi
+    quickEquip: false #?
+    slots:
+      - Belt #?
+  - type: ToolTileCompatible #?
+    delay: 0.5
+  - type: Tool
+    qualities:
+      - Prying
+    useSound: /Audio/_Impstation/Items/rattling_keys.ogg
+  - type: Prying # Todo: start prying sound
+    speedModifier: 3.0 # Around 4 and a half seconds
+    pryPowered: true
+    useSound: /Audio/_Impstation/Items/rattling_keys.ogg
+  - type: MeleeWeapon
+    wideAnimationRotation: 90
+    damage:
+      types:
+        Slash: 5 # its funny if it does slightly more damage than you'd expect
+    soundHit:
+      path: "/Audio/_Impstation/Items/rattling_keys_attack.ogg"
+
+#TODO: make it go in janibelt, make it unwieldable, edit/make sprites, jingly keys during and after doafter, jingle when walk
