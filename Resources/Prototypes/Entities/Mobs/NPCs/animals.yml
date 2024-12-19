@@ -3447,6 +3447,8 @@
   id: MobDionaNymph
   description: It's like a cat, only.... branch-ier.
   components:
+  - type: VentCrawler
+    enterDelay: 3
   - type: Sprite
     drawdepth: Mobs
     layers:
