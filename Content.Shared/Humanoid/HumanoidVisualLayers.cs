@@ -11,8 +11,9 @@ namespace Content.Shared.Humanoid
         Hair,
         FacialHair,
         Chest,
-        Underwear,
-        Undershirt,
+        Underwear, // imp
+        Undershirt, // imp
+        Socks, // imp
         Head,
         Snout,
         HeadSide, // side parts (i.e., frills)

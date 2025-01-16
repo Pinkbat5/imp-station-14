@@ -1,0 +1,27 @@
+- type: marking
+  id: SocksAnkleLeft
+  bodyPart: LFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: Mobs/Customization/socks.rsi
+    state: ankle_left
+
+- type: marking
+  id: SocksAnkleRight
+  bodyPart: RFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: Mobs/Customization/socks.rsi
+    state: ankle_right
