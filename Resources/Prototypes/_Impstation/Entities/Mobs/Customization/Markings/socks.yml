@@ -1,3 +1,4 @@
+# Short socks
 - type: marking
   id: SocksAnkleLeft
   bodyPart: LFoot
@@ -9,7 +10,7 @@
         !type:SimpleColoring
           color: "#FFFFFF"
   sprites:
-  - sprite: Mobs/Customization/socks.rsi
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
     state: ankle_left
 
 - type: marking
@@ -23,5 +24,39 @@
         !type:SimpleColoring
           color: "#FFFFFF"
   sprites:
-  - sprite: Mobs/Customization/socks.rsi
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
     state: ankle_right
+
+- type: marking
+  id: SocksCrewLeft
+  bodyPart: LFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: crew_left
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: crew_stripe_left
+
+- type: marking
+  id: SocksCrewRight
+  bodyPart: RFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: crew_right
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: crew_stripe_right
+
+# Tights (sex restricted)
