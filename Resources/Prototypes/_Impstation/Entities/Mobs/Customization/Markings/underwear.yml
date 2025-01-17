@@ -9,7 +9,7 @@
         !type:SimpleColoring
           color: "#FFFFFF"
   sprites:
-  - sprite: Mobs/Customization/underwear.rsi
+  - sprite: _Impstation/Mobs/Customization/underwear.rsi
     state: boxers
 
 - type: marking
@@ -23,7 +23,7 @@
         !type:SimpleColoring
           color: "#FFFFFF"
   sprites:
-  - sprite: Mobs/Customization/underwear.rsi
+  - sprite: _Impstation/Mobs/Customization/underwear.rsi
     state: briefs
 
 - type: marking
@@ -37,7 +37,7 @@
         !type:SimpleColoring
           color: "#FFFFFF"
   sprites:
-  - sprite: Mobs/Customization/underwear.rsi
+  - sprite: _Impstation/Mobs/Customization/underwear.rsi
     state: lowriders
 
 - type: marking
@@ -51,7 +51,7 @@
         !type:SimpleColoring
           color: "#FFFFFF"
   sprites:
-  - sprite: Mobs/Customization/underwear.rsi
+  - sprite: _Impstation/Mobs/Customization/underwear.rsi
     state: satin
 
 - type: marking
@@ -65,5 +65,5 @@
         !type:SimpleColoring
           color: "#FFFFFF"
   sprites:
-  - sprite: Mobs/Customization/underwear.rsi
+  - sprite: _Impstation/Mobs/Customization/underwear.rsi
     state: tanga

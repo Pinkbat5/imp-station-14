@@ -70,6 +70,9 @@
     Undershirt:
       points: 1
       required: false
+    Socks:
+      points: 2
+      required: false
     Legs:
       points: 8 #impspecial
       required: false
