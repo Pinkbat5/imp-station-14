@@ -30,6 +30,38 @@
     {
       "name": "crew_stripe_right",
       "directions": 4
+    },
+    {
+      "name": "sheer_male_left",
+      "directions": 4
+    },
+    {
+      "name": "sheer_male_right",
+      "directions": 4
+    },
+    {
+      "name": "sheer_female_left",
+      "directions": 4
+    },
+    {
+      "name": "sheer_female_right",
+      "directions": 4
+    },
+    {
+      "name": "tights_male_left",
+      "directions": 4
+    },
+    {
+      "name": "tights_male_right",
+      "directions": 4
+    },
+    {
+      "name": "tights_female_left",
+      "directions": 4
+    },
+    {
+      "name": "tights_female_right",
+      "directions": 4
     }
   ]
 }

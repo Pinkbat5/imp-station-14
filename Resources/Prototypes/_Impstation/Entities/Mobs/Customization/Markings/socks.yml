@@ -60,3 +60,239 @@
     state: crew_stripe_right
 
 # Tights (sex restricted)
+# sexRestriction's inability to allow for more than one sex at a time means that every "male" sprite needs to be copied three times. One for male, one for all arachnids, one for unisex. I hate it here
+- type: marking
+  id: SocksTightsSheerMaleLeft
+  bodyPart: LFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
+  sexRestriction: [Male]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: sheer_male_left
+
+- type: marking
+  id: SocksTightsSheerMaleRight
+  bodyPart: RFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
+  sexRestriction: [Male]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: sheer_male_right
+
+- type: marking
+  id: SocksTightsSheerMaleLeft
+  bodyPart: LFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
+  sexRestriction: [Unsexed]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: sheer_male_left
+
+- type: marking
+  id: SocksTightsSheerUnisexRight
+  bodyPart: RFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
+  sexRestriction: [Unsexed]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: sheer_male_right
+
+- type: marking
+  id: SocksTightsSheerUnisexLeft
+  bodyPart: LFoot
+  markingCategory: Socks
+  speciesRestriction: [Arachnid]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: sheer_male_left
+
+- type: marking
+  id: SocksTightsSheerArachnidRight
+  bodyPart: RFoot
+  markingCategory: Socks
+  speciesRestriction: [Arachnid]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: sheer_male_right
+
+- type: marking
+  id: SocksTightsSheerFemaleLeft
+  bodyPart: LFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
+  sexRestriction: [Female]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: sheer_female_left
+
+- type: marking
+  id: SocksTightsSheerFemaleRight
+  bodyPart: RFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
+  sexRestriction: [Female]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: sheer_female_right
+
+- type: marking
+  id: SocksTightsMaleLeft
+  bodyPart: LFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
+  sexRestriction: [Male]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: tights_male_left
+
+- type: marking
+  id: SocksTightsMaleRight
+  bodyPart: RFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
+  sexRestriction: [Male]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: tights_male_right
+
+- type: marking
+  id: SocksTightsMaleLeft
+  bodyPart: LFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
+  sexRestriction: [Unsexed]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: tights_male_left
+
+- type: marking
+  id: SocksTightsUnisexRight
+  bodyPart: RFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
+  sexRestriction: [Unsexed]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: tights_male_right
+
+- type: marking
+  id: SocksTightsUnisexLeft
+  bodyPart: LFoot
+  markingCategory: Socks
+  speciesRestriction: [Arachnid]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: tights_male_left
+
+- type: marking
+  id: SocksTightsArachnidRight
+  bodyPart: RFoot
+  markingCategory: Socks
+  speciesRestriction: [Arachnid]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: tights_male_right
+
+- type: marking
+  id: SocksTightsFemaleLeft
+  bodyPart: LFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
+  sexRestriction: [Female]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: tights_female_left
+
+- type: marking
+  id: SocksTightsFemaleRight
+  bodyPart: RFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
+  sexRestriction: [Female]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: tights_female_right
