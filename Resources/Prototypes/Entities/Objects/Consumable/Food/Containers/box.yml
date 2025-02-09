@@ -51,9 +51,11 @@
   - type: StorageFill
     contents:
     - id: FoodDonutPink
-      amount: 3
+      amount: 2
     - id: FoodDonutPlain
-      amount: 3
+      amount: 2
+    - id: FoodDonutMeat # imp
+      amount: 2
   - type: ItemCounter
     count:
       tags: [Donut]

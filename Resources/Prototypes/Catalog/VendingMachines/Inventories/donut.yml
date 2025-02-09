@@ -5,6 +5,6 @@
     FoodDonutApple: 3
     FoodDonutPink: 3
     FoodDonutBungo: 3
-    FoodDonutMeat: 5
+    FoodDonutMeat: 5 # imp
   emaggedInventory:
     FoodDonutPoison: 1
