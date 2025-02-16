@@ -48,6 +48,14 @@
       "directions": 4
     },
     {
+      "name": "sheer_foot_left",
+      "directions": 4
+    },
+    {
+      "name": "sheer_foot_right",
+      "directions": 4
+    },
+    {
       "name": "tights_male_left",
       "directions": 4
     },
@@ -61,6 +69,14 @@
     },
     {
       "name": "tights_female_right",
+      "directions": 4
+    },
+    {
+      "name": "tights_foot_left",
+      "directions": 4
+    },
+    {
+      "name": "tights_foot_right",
       "directions": 4
     }
   ]

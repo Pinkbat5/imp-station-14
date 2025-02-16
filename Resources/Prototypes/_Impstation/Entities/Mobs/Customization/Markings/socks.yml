@@ -59,11 +59,68 @@
   - sprite: _Impstation/Mobs/Customization/socks.rsi
     state: crew_stripe_right
 
-# Tights (sex restricted)
+# Tights (foot portion, not sex restricted)
+- type: marking
+  id: SocksTightsSheerFeetLeft
+  bodyPart: LFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson, Arachnid]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: sheer_foot_left
+
+- type: marking
+  id: SocksTightsSheerFeetRight
+  bodyPart: RFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson, Arachnid]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: sheer_foot_right
+
+- type: marking
+  id: SocksTightsFeetLeft
+  bodyPart: LFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson, Arachnid]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: tights_foot_left
+
+- type: marking
+  id: SocksTightsFeetRight
+  bodyPart: RFoot
+  markingCategory: Socks
+  speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson, Arachnid]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/socks.rsi
+    state: tights_foot_right
+
+# Tights (leg portion, sex restricted)
 # sexRestriction's inability to allow for more than one sex at a time means that every "male" sprite needs to be copied three times. One for male, one for all arachnids, one for unisex. I hate it here
 - type: marking
   id: SocksTightsSheerMaleLeft
-  bodyPart: LFoot
+  bodyPart: LLeg
   markingCategory: Socks
   speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
   sexRestriction: [Male]
@@ -78,7 +135,7 @@
 
 - type: marking
   id: SocksTightsSheerMaleRight
-  bodyPart: RFoot
+  bodyPart: RLeg
   markingCategory: Socks
   speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
   sexRestriction: [Male]
@@ -93,7 +150,7 @@
 
 - type: marking
   id: SocksTightsSheerMaleLeft
-  bodyPart: LFoot
+  bodyPart: LLeg
   markingCategory: Socks
   speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
   sexRestriction: [Unsexed]
@@ -108,7 +165,7 @@
 
 - type: marking
   id: SocksTightsSheerUnisexRight
-  bodyPart: RFoot
+  bodyPart: RLeg
   markingCategory: Socks
   speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
   sexRestriction: [Unsexed]
@@ -123,7 +180,7 @@
 
 - type: marking
   id: SocksTightsSheerUnisexLeft
-  bodyPart: LFoot
+  bodyPart: LLeg
   markingCategory: Socks
   speciesRestriction: [Arachnid]
   coloring:
@@ -137,7 +194,7 @@
 
 - type: marking
   id: SocksTightsSheerArachnidRight
-  bodyPart: RFoot
+  bodyPart: RLeg
   markingCategory: Socks
   speciesRestriction: [Arachnid]
   coloring:
@@ -151,7 +208,7 @@
 
 - type: marking
   id: SocksTightsSheerFemaleLeft
-  bodyPart: LFoot
+  bodyPart: LLeg
   markingCategory: Socks
   speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
   sexRestriction: [Female]
@@ -166,7 +223,7 @@
 
 - type: marking
   id: SocksTightsSheerFemaleRight
-  bodyPart: RFoot
+  bodyPart: RLeg
   markingCategory: Socks
   speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
   sexRestriction: [Female]
@@ -181,7 +238,7 @@
 
 - type: marking
   id: SocksTightsMaleLeft
-  bodyPart: LFoot
+  bodyPart: LLeg
   markingCategory: Socks
   speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
   sexRestriction: [Male]
@@ -196,7 +253,7 @@
 
 - type: marking
   id: SocksTightsMaleRight
-  bodyPart: RFoot
+  bodyPart: RLeg
   markingCategory: Socks
   speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
   sexRestriction: [Male]
@@ -211,7 +268,7 @@
 
 - type: marking
   id: SocksTightsMaleLeft
-  bodyPart: LFoot
+  bodyPart: LLeg
   markingCategory: Socks
   speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
   sexRestriction: [Unsexed]
@@ -226,7 +283,7 @@
 
 - type: marking
   id: SocksTightsUnisexRight
-  bodyPart: RFoot
+  bodyPart: RLeg
   markingCategory: Socks
   speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
   sexRestriction: [Unsexed]
@@ -241,7 +298,7 @@
 
 - type: marking
   id: SocksTightsUnisexLeft
-  bodyPart: LFoot
+  bodyPart: LLeg
   markingCategory: Socks
   speciesRestriction: [Arachnid]
   coloring:
@@ -255,7 +312,7 @@
 
 - type: marking
   id: SocksTightsArachnidRight
-  bodyPart: RFoot
+  bodyPart: RLeg
   markingCategory: Socks
   speciesRestriction: [Arachnid]
   coloring:
@@ -269,7 +326,7 @@
 
 - type: marking
   id: SocksTightsFemaleLeft
-  bodyPart: LFoot
+  bodyPart: LLeg
   markingCategory: Socks
   speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
   sexRestriction: [Female]
@@ -284,7 +341,7 @@
 
 - type: marking
   id: SocksTightsFemaleRight
-  bodyPart: RFoot
+  bodyPart: RLeg
   markingCategory: Socks
   speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson]
   sexRestriction: [Female]

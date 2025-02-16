@@ -10,6 +10,10 @@ marking-SocksCrewRight-crew_right = Crew sock
 marking-SocksCrewRight-crew_stripe_right = Stripe
 marking-SocksCrewRight = Crew sock (Right)
 
+marking-SocksTightsSheerFeetLeft = Sheer tights (Left foot)
+marking-SocksTightsSheerFeetLeft-sheer_foot_left = Sheer tights foot left half
+marking-SocksTightsSheerFeetRight = Sheer tights (Right foot)
+marking-SocksTightsSheerFeetRight-sheer_foot_right = Sheer tights foot right half
 marking-SocksTightsSheerMaleLeft = Sheer tights (Left)
 marking-SocksTightsSheerArachnidLeft = Sheer tights (Left)
 marking-SocksTightsSheerUnisexLeft = Sheer tights (Left)
@@ -27,6 +31,10 @@ marking-SocksTightsSheerArachnidRight-sheer_male_right = Sheer tights right half
 marking-SocksTightsSheerUnisexRight-sheer_male_right = Sheer tights right half
 marking-SocksTightsSheerFemaleRight-sheer_female_right = Sheer tights right half
 
+marking-SocksTightsFeetLeft = Tights (Left foot)
+marking-SocksTightsFeetLeft-tights_foot_left = Tights foot left half
+marking-SocksTightsFeetRight = Tights (Right foot)
+marking-SocksTightsFeetRight-tights_foot_right = Tights foot right half
 marking-SocksTightsMaleLeft = Tights (Left)
 marking-SocksTightsArachnidLeft = Tights (Left)
 marking-SocksTightsUnisexLeft = Tights (Left)

@@ -50,8 +50,8 @@
     Undershirt:
       points: 1
       required: false
-    Socks:
-      points: 2
+    Socks: # imp
+      points: 4
       required: false
     Legs:
       points: 8 #impspecial
