@@ -187,7 +187,6 @@
     species: Decapoid
     hideLayersOnEquip:
     - Hair
-    - Snout
 
 - type: entity
   parent: BaseSpeciesDummy
