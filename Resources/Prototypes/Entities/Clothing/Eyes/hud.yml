@@ -152,15 +152,15 @@
   - type: ShowThirstIcons
 
 - type: entity
-  parent: [ClothingEyesBase, BaseLensSlot, ShowSecurityIcons, ShowMedicalIcons, BaseBrigmedicContraband] # BaseLensSlot from imp
+  parent: [ClothingEyesBase, BaseLensSlot, ShowSecurityIcons, ShowMedicalIcons, BaseBrigmedicContraband] # BaseLensSlot and BrigmedicContraband from imp
   id: ClothingEyesHudMedSec
   name: medsec hud
-  description: A specialized pair of glasses that displays both medical and security information, complete with a compact antenna for data downlink and a flash-protective coating.
+  description: A specialized pair of glasses that displays both medical and security information, complete with a compact antenna for data downlink and a flash-protective coating. # imp
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Hud/medsec.rsi
+    sprite: _Impstation/Clothing/Eyes/Hud/medsec.rsi # imp
   - type: Clothing
-    sprite: Clothing/Eyes/Hud/medsec.rsi
+    sprite: _Impstation/Clothing/Eyes/Hud/medsec.rsi # imp
   - type: Construction
     graph: HudMedSec
     node: medsecHud
@@ -295,14 +295,3 @@
   parent: [ClothingEyesEyepatchHudDiag, ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchHudDiagFlipped
   name: diagnostic hud eyepatch
-
-- type: entity
-  parent: [ClothingEyesHudMedical]
-  id: ClothingEyesGlassesHudMedical
-  name: medical hud glasses
-  description: A stylish heads-up display that scans the humanoids in view and provides accurate data about their health status.
-  components:
-  - type: Sprite
-    sprite: Clothing/Eyes/Hud/medglasses.rsi
-  - type: Clothing
-    sprite: Clothing/Eyes/Hud/medglasses.rsi

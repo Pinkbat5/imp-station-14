@@ -1,0 +1,10 @@
+- type: entity
+  parent: [ClothingEyesHudMedical]
+  id: ClothingEyesGlassesHudMedical
+  name: medical hud glasses
+  description: A stylish pair of glasses that scans the humanoids in view and provides accurate data about their health status.
+  components:
+  - type: Sprite
+    sprite: _Impstation/Clothing/Eyes/Hud/medglasses.rsi
+  - type: Clothing
+    sprite: _Impstation/Clothing/Eyes/Hud/medglasses.rsi

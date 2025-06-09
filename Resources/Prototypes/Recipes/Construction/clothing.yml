@@ -83,7 +83,7 @@
   targetNode: medsecHud
   category: construction-category-clothing
   description: Two huds joined into a new frame.
-  icon: { sprite: Clothing/Eyes/Hud/medsec.rsi, state: icon }
+  icon: { sprite: _Impstation/Clothing/Eyes/Hud/medsec.rsi, state: icon }
   objectType: Item
 
 - type: construction
