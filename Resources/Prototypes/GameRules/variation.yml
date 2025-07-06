@@ -96,7 +96,7 @@
     weight: 5
     reagents:
     - Vomit
-    - InsectBlood
+    #- InsectBlood imp
     - WeldingFuel
     - Mold
   - quantity: 55
@@ -112,13 +112,13 @@
     - Sulfur
     - Acetone
     - Bleach
-  - quantity: 40
-    weight: 3
-    reagents:
-    - Blood
-    - CopperBlood
-    - Slime
-    - ShimmeringBlood #imp
+  #- quantity: 40
+    #weight: 3
+    #reagents:
+    #- Blood imp
+    #- CopperBlood
+    #- Slime imp
+    #- ShimmeringBlood #imp
   - quantity: 25
     weight: 1
     reagents:
