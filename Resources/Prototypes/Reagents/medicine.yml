@@ -152,7 +152,7 @@
   metabolisms:
     Medicine:
       effects:
-      - !type:HealthChange
+      - !type:EvenHealthChange # imp
         damage:
           groups:
             Brute: -2
