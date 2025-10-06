@@ -239,6 +239,39 @@
 
 - type: entity
   parent: ClothingOuterCoatBomberBlack
+  id: ClothingOuterCoatBomberCe
+  name: chief engineer's bomber jacket
+  description: The metallic outer shell of a hardsuit, modified into stylish outerwear. If you're feeling bold, you can loosen how it fits with a knife.
+  components:
+  - type: Sprite
+    sprite: _Impstation/Clothing/OuterClothing/BomberJackets/bomber_ce.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+    - state: icon-open
+      map: ["foldedLayer"]
+      visible: false
+    - state: icon-unshaded
+      shader: unshaded
+  - type: Clothing
+    sprite: _Impstation/Clothing/OuterClothing/BomberJackets/bomber_ce.rsi
+    clothingVisuals:
+      outerClothing: # folding currently not working with unshaded layers
+      - state: equipped-OUTERCLOTHING
+        map: [ "unfoldedLayer" ]
+      - state: open-equipped-OUTERCLOTHING
+        map: ["foldedLayer"]
+        visible: false
+      - state: equipped-OUTERCLOTHING-unshaded
+        shader: unshaded
+  - type: Butcherable
+    butcheringType: Knife
+    spawned:
+    - id: ClothingOuterCoatBomberCeLoose
+      amount: 1
+
+- type: entity
+  parent: ClothingOuterCoatBomberBlack
   id: ClothingOuterCoatBomberMedical
   name: medical bomber jacket
   description: A blue bomber jacket, worn with the sleeves pushed up. Embroidered on the back is a caduceus, to remind you to do no harm. If you're feeling bold, you can loosen how it fits with a knife.
@@ -413,6 +446,39 @@
     butcheringType: Knife
     spawned:
     - id: ClothingOuterCoatBomberAtmosHolo
+      amount: 1
+
+- type: entity
+  parent: ClothingOuterCoatBomberCe
+  id: ClothingOuterCoatBomberCeLoose
+  name: chief engineer's bomber jacket (loose)
+  description: The metallic outer shell of a hardsuit, modified into stylish outerwear. If you're feeling modest, you can tighten how it fits with a knife.
+  components:
+  - type: Sprite
+    sprite: _Impstation/Clothing/OuterClothing/BomberJackets/bomber_ce_loose.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+    - state: icon-open
+      map: ["foldedLayer"]
+      visible: false
+    - state: icon-unshaded
+      shader: unshaded
+  - type: Clothing
+    sprite: _Impstation/Clothing/OuterClothing/BomberJackets/bomber_ce_loose.rsi
+    clothingVisuals:
+      outerClothing: # folding currently not working with unshaded layers
+      - state: equipped-OUTERCLOTHING
+        map: [ "unfoldedLayer" ]
+      - state: open-equipped-OUTERCLOTHING
+        map: ["foldedLayer"]
+        visible: false
+      - state: equipped-OUTERCLOTHING-unshaded
+        shader: unshaded
+  - type: Butcherable
+    butcheringType: Knife
+    spawned:
+    - id: ClothingOuterCoatBomberCe
       amount: 1
 
 - type: entity
